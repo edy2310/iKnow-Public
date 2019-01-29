@@ -1,11 +1,11 @@
-## Intro
+# Intro
 
 iKnow is a download and run Java application that allows you to generate a FAQ site fast and easy.
 It is developed with Java EE, Vue.js and MySql.
 
-##Backend
+#Backend
 
-# Database preparation
+## Database preparation
 
 To properly run iKnow is necessary to have 3 tables:
 -"admins" -> Used to save all the admin logins
@@ -14,7 +14,7 @@ To properly run iKnow is necessary to have 3 tables:
 
 *It is important to maintain the order of the columns within the table as shown below,  for the correct operation of the application.
 
-# Modeling tables
+## Modeling tables
 
 -admins
 
@@ -55,7 +55,7 @@ So, for the icon "<i class="fas fa-address-card"></i>", only the text "fas fa-ad
 *content -> The space for this field can be greater than 1000.
 
 
-# DB configuration
+## DB configuration
 
 Start configuring the Java class file for the DB connection. Go into `/src/java/com/iknow/connectionDb.java` and write down your DB info
 - 'db_url': 'host of the DB',
@@ -63,7 +63,7 @@ Start configuring the Java class file for the DB connection. Go into `/src/java/
 - 'db_user': 'user for the DB',
 - 'db_pass': 'pass for the DB'
 
-##Ready to go
+#Ready to go
 
 Since this DB configuration has been made, the application is ready to be builded as a JAR/WAR file and to be uploaded into your server.
 Once you have launched the application, you can start submitting Categories and Questions in the backoffice.
@@ -71,15 +71,15 @@ All the categories will be loaded in the home page.
 And all the questions of every category will be loaded in the category route.
 As easy like that.
 
-##Frontend
+#Frontend
 
-# Routes
+## Routes
 
 The route to login into the backoffice is `/login.jsp` 
 The route to access a category is `/category/?title=` and the GET request for the category to search.
 The route to access a question is `/question/?id=` and the GET request for the question to search.
 
-# Sources files configuration
+## Sources files configuration
 
     -JS
 The javascript part of this application works with Vue.js and Webpack.
@@ -97,6 +97,6 @@ The SASS sources files can be found in: `/web/assets/scss/`
 And the compiled file should be placed in: `/web/assets/css/styles.css`
 
 
-## Further help
+# Further help
 
 Any issue, bug or comment can be submitted in this repo.

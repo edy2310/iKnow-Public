@@ -1,6 +1,6 @@
 # Intro
 
-iKnow is a download and run Java application that allows you to generate a FAQ site fast and easy.
+iKnow is a download and run Java application that allows you to generate a FAQ site simple and easy.
 It is developed with Java EE, Vue.js and MySql.
 
 # Backend

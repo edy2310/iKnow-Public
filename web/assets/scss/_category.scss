@@ -1,0 +1,28 @@
+.category-title_bar{
+    background: #25354d;
+    color: white; 
+    padding: 0.7em 8em;
+    @media (max-width:768px){
+        padding: 0.7em 3em;
+    }
+    font-size: 1.3em;
+}
+
+.table{
+    width: 75% !important;
+}
+
+.category-main_content{
+    margin-top: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    th{
+        font-size: 1.5em;
+        a{
+            color: #929292;
+            float: left;
+            font-size: 1.3rem;
+        }
+    }
+}

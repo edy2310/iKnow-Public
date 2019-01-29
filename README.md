@@ -3,7 +3,7 @@
 iKnow is a download and run Java application that allows you to generate a FAQ site fast and easy.
 It is developed with Java EE, Vue.js and MySql.
 
-#Backend
+# Backend
 
 ## Database preparation
 
@@ -63,7 +63,7 @@ Start configuring the Java class file for the DB connection. Go into `/src/java/
 - 'db_user': 'user for the DB',
 - 'db_pass': 'pass for the DB'
 
-#Ready to go
+# Ready to go
 
 Since this DB configuration has been made, the application is ready to be builded as a JAR/WAR file and to be uploaded into your server.
 Once you have launched the application, you can start submitting Categories and Questions in the backoffice.
@@ -71,7 +71,7 @@ All the categories will be loaded in the home page.
 And all the questions of every category will be loaded in the category route.
 As easy like that.
 
-#Frontend
+# Frontend
 
 ## Routes
 

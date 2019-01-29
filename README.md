@@ -81,20 +81,20 @@ As easy like that.
 
 ## Sources files configuration
 
-    -JS
-The javascript part of this application works with Vue.js and Webpack.
-The JS sources files can be found in: `/web/assets/js/sources/`
-And the bundled files should placed in: `/web/assets/js/`
-The relation between files is:
-- 'home.js' -> 'bundle.js'
-- 'category.js' -> 'bundleCategory.js'
-- 'question.js' -> 'bundleQuestion.js'
+    - JS
+        - The javascript part of this application works with Vue.js and Webpack.
+        - The JS sources files can be found in: `/web/assets/js/sources/`
+        - And the bundled files should placed in: `/web/assets/js/`
+        - The relation between files is:
+            - 'home.js' -> 'bundle.js'
+            - 'category.js' -> 'bundleCategory.js'
+            - 'question.js' -> 'bundleQuestion.js'
 
-    -CSS
-The CSS part of this application works with SASS technology.
-It also works with Bootstrap framework. Which can be modified in: `/web/assets/css/bootstrap.min.css`
-The SASS sources files can be found in: `/web/assets/scss/`
-And the compiled file should be placed in: `/web/assets/css/styles.css`
+    - CSS
+        - The CSS part of this application works with SASS technology.
+        - It also works with Bootstrap framework. Which can be modified in: `/web/assets/css/bootstrap.min.css`
+        - The SASS sources files can be found in: `/web/assets/scss/`
+        - And the compiled file should be placed in: `/web/assets/css/styles.css`
 
 
 # Further help

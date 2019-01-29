@@ -40,7 +40,7 @@ The categories table is used to save all the possible categories of the question
 
 *iconCode -> The iconCode works with any third service which provides icon (i) tags with specific classes, like FontAwesome or Material Icons.
 The content of the iconCode field should the HTML class which will be used inside the icon (i) tag.
-So, for the icon "<i class="fas fa-address-card"></i>", only the text "fas fa-address-card" should be submitted in the iconCode field.
+So, for the icon '<i class="fas fa-address-card"></i>', only the text "fas fa-address-card" should be submitted in the iconCode field.
 
 
 - questions

@@ -8,15 +8,15 @@ It is developed with Java EE, Vue.js and MySql.
 ## Database preparation
 
 To properly run iKnow is necessary to have 3 tables:
--"admins" -> Used to save all the admin logins
--"categories" -> Used to save all the possible categories of the questions
--"questions" -> Used to save the questions itself
+- "admins" -> Used to save all the admin logins
+- "categories" -> Used to save all the possible categories of the questions
+- "questions" -> Used to save the questions itself
 
 *It is important to maintain the order of the columns within the table as shown below,  for the correct operation of the application.
 
 ## Modeling tables
 
--admins
+- admins
 
 The admin table is used to sign in into iKnow backoffice.
 The properties fot this table are:
@@ -28,7 +28,7 @@ The properties fot this table are:
 | password  | varchar(255)   | No  |   | NULL  |  |    
 
 
--categories
+- categories
 
 The categories table is used to save all the possible categories of the questions
 
@@ -43,7 +43,7 @@ The content of the iconCode field should the HTML class which will be used insid
 So, for the icon "<i class="fas fa-address-card"></i>", only the text "fas fa-address-card" should be submitted in the iconCode field.
 
 
--questions
+- questions
 
 | Field  | Type | Null  | Key | Default  | Extra |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |

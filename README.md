@@ -75,9 +75,9 @@ As easy like that.
 
 ## Routes
 
-The route to login into the backoffice is `/login.jsp` 
-The route to access a category is `/category/?title=` and the GET request for the category to search.
-The route to access a question is `/question/?id=` and the GET request for the question to search.
+- The route to login into the backoffice is `/login.jsp` 
+- The route to access a category is `/category/?title=` and the GET request for the category to search.
+- The route to access a question is `/question/?id=` and the GET request for the question to search.
 
 ## Sources files configuration
 
